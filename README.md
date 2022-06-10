@@ -3,7 +3,7 @@
  
  
  
-<h1>xercicio para escrever os testes do nosso Token ERC20 em localhost.<h1>
+<h1>Exercicio para escrever os testes do nosso Token ERC20 em localhost.<h1>
 
 
 <h2>Testes Feitos utilizando Chai<h2>
