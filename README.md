@@ -8,8 +8,9 @@
 
 <h2>Testes Feitos<h2>
 
-
+ 
 <h3>- Teste de Deploy -<h3>
+```
 describe("isDeployed", function() {
   it("Should return contract address", async function(){
     const TokenFactory = await ethers.getContractFactory("CryptoToken");
@@ -20,9 +21,11 @@ describe("isDeployed", function() {
     console.log("Contract Address: " + deployAddress);
   })
 });
+``` 
 
 
 <h3>- Testes de Supply -<h3>
+``` 
 describe("aboutSupply", function() {
   const supply = 1000;
   it("Should return totalSupply", async function(){
@@ -45,8 +48,10 @@ describe("aboutSupply", function() {
     console.log("Balance of Owner: " + await TokenDeploy.balanceOf(Owner.address));
   })
 })
-
+```
+ 
 <h3>- Teste de Transfer -<h3>
+``` 
 describe("isTransfer", function() {
   it("Should return value of trade in new wallet", async function(){
     const supply = 1000;
@@ -67,3 +72,4 @@ describe("isTransfer", function() {
 
   })
 });
+```
